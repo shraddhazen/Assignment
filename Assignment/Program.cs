@@ -9,7 +9,7 @@ namespace Assignment
 {
     class Program
     {
-        static void Main(string[] args)
+        static void Main()
         {
             string user1= "";
            
@@ -24,12 +24,13 @@ namespace Assignment
                 File.AppendAllText("static.txt", user);
                  //File.WriteAllText("static.txt", user);
                 Console.WriteLine("Contents of the file : " + File.ReadAllText("static.txt"));
-                // File.AppendText("static.txt");
-                //IEnumerable<string> f = File.ReadLines("static.txt");
-                //foreach(var v in f)
-                //{
-                //    Console.WriteLine($"{v}");
-                //}
+            // File.AppendText("static.txt");
+            //IEnumerable<string> f = File.ReadLines("static.txt");
+            //foreach(var v in f)
+            //{
+            //    Console.WriteLine($"{v}");
+            //}
+            
                 //Console.WriteLine("New content to be appended");
                 //string user2 =Console.ReadLine();
                 // File.OpenWrite("static.txt");
